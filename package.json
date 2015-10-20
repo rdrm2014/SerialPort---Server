@@ -1,0 +1,16 @@
+{
+    "name": "DistributedSerial_Server",
+    "author": "Ricardo Mendes",
+    "version": "0.0.1",
+    "description": "DistributedSerial_Server - Node.js",
+    "tecnology": "Node.js",
+    "main": "app.js",
+    "server" :{
+        "ipaddr": "127.0.0.1",
+        "port": 8080
+    },
+    "dependencies": {
+        "express": "~4.13.3",
+        "socket.io": "~1.3.7"
+    }
+}

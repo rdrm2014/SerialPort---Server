@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+    link(rel='stylesheet', href='/bootstrap-3.3.2/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/style.css')
+  body
+      div(class='navbar navbar-inverse navbar-fixed-top')
+        div(class='navbar-inner')
+            div(class='container-fluid')
+                div(class='nav-collapse collapse')
+                    a(class='brand', href='/') ROV
+                        li(class='navbar-text pull-right')
+                            span(id='list')
+      div(class='container-fluid' style='padding-top: 50px;')
+        block content
+
+      hr
+      footer
+        p(style='text-align: center;') ISAQUA- AquaTeam
